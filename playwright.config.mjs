@@ -11,7 +11,7 @@ export default defineConfig({
     baseURL: 'http://127.0.0.1:8080'
   },
   projects: [
-    { name: 'mobile', use: { ...devices['iPhone 13'] } },
-    { name: 'desktop', use: { ...devices['Desktop Chrome'] } }
+    { name: 'mobile', use: { ...devices['iPhone 13'], browserName: 'chromium' } },
+    { name: 'desktop', use: { ...devices['Desktop Chrome'], browserName: 'chromium' } }
   ]
 });
