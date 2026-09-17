@@ -12,7 +12,7 @@
     "test": "npm run test:html && npm run test:semantic && npm run test:security && npm run test:a11y && npm run test:responsive"
   },
   "devDependencies": {
-    "html-validate": "11.16.0",
+    "html-validate": "10.4.0",
     "http-server": "^14.1.1",
     "@axe-core/playwright": "^4.10.2",
     "@playwright/test": "^1.55.0"
